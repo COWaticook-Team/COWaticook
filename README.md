@@ -1,4 +1,4 @@
-# Cowaticook
+# COWaticook
 Positionnement des vaches 🐄 - Projet TSO 2023
 
 ## TODO
