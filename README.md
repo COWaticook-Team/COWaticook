@@ -11,6 +11,7 @@ Positionnement des vaches 🐄 - Projet TSO 2023
 
 ### In Progress
 
+- [ ] Dockerfile
 - [ ] Travailler sur la base de donnée
 - [ ] Commenter le code pour l'aqquisition des données
 
