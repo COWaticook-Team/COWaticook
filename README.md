@@ -2,10 +2,13 @@
 Positionnement des vaches 🐄 - Projet TSO 2023
 
 ## TODO
-### Todo
+> **Note**
+> Ce TODO plutôt général, pour un TODO plus spécifique voir : 
+> (cowaticook-backend) https://github.com/COWaticook-Team/cowaticook-backend#todo
 
-  - [ ] Commenter le code pour l'aqquisition des données
-  - [ ] Dockerfile (En pause)
+### Todo
+- [ ] Commenter le code pour l'aqquisition des données
+- [ ] Dockerfile (En pause)
 
 ### In Progress
 
