@@ -3,22 +3,25 @@ Positionnement des vaches 🐄 - Projet TSO 2023
 
 ## TODO
 > **Note**
-> Ce TODO plutôt général, pour un TODO plus spécifique voir : 
-> (cowaticook-backend) https://github.com/COWaticook-Team/cowaticook-backend#todo
+> Ceci est un TODO général, pour un TODO plus spécifique voir : 
+>
+> ([TODO cowaticook-backend](https://github.com/COWaticook-Team/cowaticook-backend#todo))
+>
+> ([TODO cowaticook-frontend](https://github.com/COWaticook-Team/cowaticook-frontend#todo))
 
 ### Todo
-- [ ] Commenter le code pour l'aqquisition des données
 - [ ] Dockerfile (En pause)
 
 ### In Progress
 
-- [ ] Modifier le code pour l'aqquisition des données
-- [ ] Faire code pour plus d'un tag
 - [ ] Travailler sur le site web
 - [ ] Travailler sur la base de donnée (InfluxDB)
 
 ### Done ✓
 
+- [x] Commenter le code pour l'aqquisition des données
+- [x] Modifier le code pour l'aqquisition des données
+- [x] Faire code pour plus d'un tag
 - [x] Régler les erreurs lors de l'aqquisition des données
 - [x] Commenter le code pour l'aqquisition des données
 - [x] Création d'un TODO 
