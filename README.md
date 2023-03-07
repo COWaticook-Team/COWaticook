@@ -1,6 +1,9 @@
 # COWaticook
 Positionnement des vaches 🐄 - Projet TSO 2023
 
+## COWaticook-frontend
+Tout le code nécessaire au fonctionnement de la page web
+
 ## TODO
 > **Note**
 > Ceci est un TODO général, pour un TODO plus spécifique voir : 
