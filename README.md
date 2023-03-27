@@ -2,7 +2,7 @@
 Positionnement des vaches 🐄 - Projet TSO 2023
 
 ## COWaticook-frontend
-Le repositeries contenant tout le code nécessaire au fonctionnement de la page web
+Le dépôt github contenant tout le code nécessaire au fonctionnement de la page web
 
 ## TODO
 > **Note**
