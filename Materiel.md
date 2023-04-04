@@ -1,5 +1,5 @@
 # Modification des Owl-in-One
-![fichiers](https://github.com/COWaticook-Team/COWaticook/blob/main/assets/images/owlinoneopening.jpg)
+
 <p align="center">
   <img src="https://github.com/COWaticook-Team/COWaticook/blob/main/assets/images/owlinoneopening.jpg" />
 </p>
