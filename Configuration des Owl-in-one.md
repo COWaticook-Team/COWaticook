@@ -6,6 +6,7 @@ Prérequis
 Avoir Node.js version 12.22.12, npm et t2-cli utility d'installer.
 
 [Lien télécharger node](https://nodejs.org/en/download/releases)
+
 Commande pour installer t2-cli
 ```
 npm install -g t2-cli
