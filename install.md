@@ -54,7 +54,7 @@ Connecter vous au [portail Azure](https://portal.azure.com).
 
 9. Sous **Inbound port rules** > **Public inbound ports**, choisissez **Public inbound ports**, puis sélectionnez **SSH (22)**, **HTTP (80)** et **HTTPS (443)** dans la liste déroulante.
    <img src="./assets/images/image-20230404102752758.png" alt="image-20230404102752758" style="zoom:80%;" />
-
+   
 10. Laissez les valeurs par défaut restantes, puis sélectionnez le bouton **Review + create** en bas de la page.
 
 11. Sur la page **Create a virtual machine**, vous pouvez voir les détails de la machine virtuelle que vous êtes sur le point de créer.  Lorsque vous êtes prêt, sélectionnez **Create**.
