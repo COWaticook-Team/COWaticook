@@ -53,6 +53,7 @@ Connecter vous au [portail Azure](https://portal.azure.com).
    > Si vous n'avez pas de clé publique, vous pouvez en générer une avec la commande `ssh-keygen`. Sinon choisissez **Password** au lied de **SSH public key**.
 
 9. Sous **Inbound port rules** > **Public inbound ports**, choisissez **Public inbound ports**, puis sélectionnez **SSH (22)**, **HTTP (80)** et **HTTPS (443)** dans la liste déroulante.
+   
    <img src="./assets/images/image-20230404102752758.png" alt="image-20230404102752758" style="zoom:80%;" />
    
 10. Laissez les valeurs par défaut restantes, puis sélectionnez le bouton **Review + create** en bas de la page.
