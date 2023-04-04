@@ -18,7 +18,5 @@ npm install -g t2-cli
 
 
     
-##### Pour plus d'information sur l'installation de Tessel 2
-[Guide](https://tessel.github.io/t2-start/)A step-by-step guide to install the t2-cli utility and its prerequisites.
     
 
