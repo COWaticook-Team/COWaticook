@@ -16,10 +16,9 @@ npm install -g t2-cli
 
 [Lien pour la procédure de configuration des antenne](https://github.com/COWaticook-Team/tessel-edge)
 
-[![](../common/images/tessel-icon.png)](https://tessel.github.io/t2-start/)
-    
 
     
-    ##### Pour plus d'information sur l'installation de Tessel 2](https://tessel.github.io/t2-start/)A step-by-step guide to install the t2-cli utility and its prerequisites.
+##### Pour plus d'information sur l'installation de Tessel 2
+[Guide](https://tessel.github.io/t2-start/)A step-by-step guide to install the t2-cli utility and its prerequisites.
     
 
