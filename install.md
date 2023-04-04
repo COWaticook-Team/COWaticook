@@ -1,10 +1,18 @@
  
 
-# Installation des logiciels - COWaticook
+# **Installation des logiciels - COWaticook**
 
 ---------
 
-[TOC]
+<!--ts-->
+* [<strong>Installation des logiciels - COWaticook</strong>](#installation-des-logiciels---cowaticook)
+   * [Partie 0 - <strong>Création/configuration d'un VPS</strong>](#partie-0---créationconfiguration-dun-vpsi)
+      * [Connexion à Azure](#connexion-à-azure)
+      * [Création de la machine virtuelle](#création-de-la-machine-virtuelle)
+      * [Connexion à la machine virtuelle](#connexion-à-la-machine-virtuelle)
+   * [Partie 1](#partie-1)
+
+<!--te-->
 
 ## Partie 0 - **Création/configuration d'un VPS**
 
@@ -45,8 +53,9 @@ Connecter vous au [portail Azure](https://portal.azure.com).
    > Si vous n'avez pas de clé publique, vous pouvez en générer une avec la commande `ssh-keygen`. Sinon choisissez **Password** au lied de **SSH public key**.
 
 9. Sous **Inbound port rules** > **Public inbound ports**, choisissez **Public inbound ports**, puis sélectionnez **SSH (22)**, **HTTP (80)** et **HTTPS (443)** dans la liste déroulante.
+   
    <img src="./assets/images/image-20230404102752758.png" alt="image-20230404102752758" style="zoom:80%;" />
-
+   
 10. Laissez les valeurs par défaut restantes, puis sélectionnez le bouton **Review + create** en bas de la page.
 
 11. Sur la page **Create a virtual machine**, vous pouvez voir les détails de la machine virtuelle que vous êtes sur le point de créer.  Lorsque vous êtes prêt, sélectionnez **Create**.
