@@ -1,5 +1,8 @@
 # Modification des Owl-in-One
 ![fichiers](https://github.com/COWaticook-Team/COWaticook/blob/main/assets/images/owlinoneopening.jpg)
+<p align="center">
+  <img src="https://github.com/COWaticook-Team/COWaticook/blob/main/assets/images/owlinoneopening.jpg" />
+</p>
 
 1) Nous avons modifié les owl-in-one pour fonctionner avec des injecteurs POE. Pour cela, nous avons ouvert les hiboux en dévissant les 4 vis à l'arrière.
 
