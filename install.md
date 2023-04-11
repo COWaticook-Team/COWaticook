@@ -104,7 +104,7 @@ Lancer cette commande pour
 #### Installation des dépendances
 
 ```bash
-sudo apt install -y git apache2 apache2-utils xdg-utils curl docker.io docker-clean docker-compose docker-registry python3-docker
+sudo apt install -y git apache2 apache2-utils xdg-utils curl docker.io docker-clean docker-compose docker-registry python3-docker python3-certbot-apache certbot
 ```
 
 #### Installation de Node.js avec nvm
@@ -158,7 +158,7 @@ Suivre cette [procédure](https://github.com/COWaticook-Team/cowaticook-frontend
    # Le script est égalemment disponible dans le répertoire "scripts" de ce git
    ```
 
-3. Rendez-vous à l'adresse du serveur pour configurer influxdb **http://localhost:8086**
+3. Rendez-vous à l'adresse du serveur pour configurer influxdb **http://ip_du_serveur:8086**
 
 4. Entrez ces options:
 
@@ -169,7 +169,7 @@ Suivre cette [procédure](https://github.com/COWaticook-Team/cowaticook-frontend
 
    <img src="./assets/images/image-20230411000857747.png" alt="image-20230411000857747" style="zoom:80%;" />
 
-5. Prendre note de la clé pour l'API, elle serra utilisé pour le serveur web et la backend 
+5. Prendre note de la clé pour l'API, elle serra utilisé pour le serveur web (cowaticook-frontend) et le script python (cowaticook-backend) 
 
 #### Installation du Reverse
 
@@ -178,7 +178,8 @@ Suivre cette [procédure](https://github.com/COWaticook-Team/cowaticook-frontend
 
 1. Créer le fichier de config pour cowaticook-frontend
    `sudo vim /etc/apache2/sites-available/cowaticook-frontend.conf`
-
+   Ajouter le texte si dessous
+   
    ```html
    <VirtualHost *:80>
            ServerName com.cowaticook.pro
@@ -190,15 +191,24 @@ Suivre cette [procédure](https://github.com/COWaticook-Team/cowaticook-frontend
            ProxyPassReverse / http://localhost:3002/
    </VirtualHost>
    ```
-
+   
 2. Activation du module pour le proxy
 
    ```bash
    # Activation du module "proxy"
    sudo a2enmod proxy
    
+   # Activation du module "proxy_http"
+   sudo a2enmod proxy_http
+   
    # Désactivation du site par défaut
    sudo a2dissite 000-default.conf
+   
+   # Activation du site "cowaticook-frontend" 
+   sudo a2ensite pareto.conf
+   
+   # Activation du site "cowaticook-frontend" 
+   sudo a2ensite influx.conf
    
    # Activation du site "cowaticook-frontend" 
    sudo a2ensite cowaticook-frontend.conf
