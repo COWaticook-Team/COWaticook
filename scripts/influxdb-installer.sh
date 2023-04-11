@@ -31,6 +31,7 @@ docker run \
 	-p 8086:8086 \
 	-v myInfluxVolume:/var/lib/influxdb2 \
 	--name cowdb \
+	--restart=always \
 	influxdb:latest
 
 echo -e "${PURPLE}# ${LIGHT_GREEN}Go to http://localhost:8086 to configure InfluxDB\n${CLEAR}"
