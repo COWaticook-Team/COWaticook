@@ -29,7 +29,7 @@ echo -e "${PURPLE}# ${LIGHT_YELLOW}Starting InfluxDB ${CLEAR}"
 docker run \
 	--detach \
 	-p 8086:8086 \
-	-v myInfluxVolume:/var/lib/influxdb2 \
+	-v cowaticookVolume:/var/lib/influxdb2 \
 	--name cowdb \
 	--restart=always \
 	influxdb:latest
