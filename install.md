@@ -104,7 +104,7 @@ Lancer cette commande pour
 #### Installation des dépendances
 
 ```bash
-sudo apt install -y git apache2 apache2-utils xdg-utils curl docker.io docker-clean docker-compose docker-registry python3-docker python3-certbot-apache certbot
+sudo apt install -y git apache2 apache2-utils xdg-utils curl docker.io docker-clean docker-compose docker-registry python3-docker python3-certbot-apache certbot wget
 ```
 
 #### Installation de Node.js avec nvm
