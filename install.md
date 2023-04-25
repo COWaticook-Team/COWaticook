@@ -182,7 +182,7 @@ Suivre cette [procédure](https://github.com/COWaticook-Team/cowaticook-frontend
    
    ```html
    <VirtualHost *:80>
-           ServerName com.cowaticook.pro
+           ServerName cowaticook.pro
            ServerAdmin webmaster@localhost
    
            ProxyPreserveHost On
