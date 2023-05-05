@@ -10,7 +10,7 @@
       * [Connexion à Azure](#connexion-à-azure)
       * [Création de la machine virtuelle](#création-de-la-machine-virtuelle)
       * [Connexion à la machine virtuelle](#connexion-à-la-machine-virtuelle)
-   * [Partie 1](#partie-1)
+   * [Partie 1 - Installation des logiciels](#partie-1)
 
 <!--te-->
 
@@ -187,7 +187,7 @@ Suivre cette [procédure](https://github.com/COWaticook-Team/cowaticook-frontend
    
            ProxyPreserveHost On
            ProxyRequests Off
-           ProxyPass / http://localhost:/
+           ProxyPass / http://localhost:3002/
            ProxyPassReverse / http://localhost:3002/
    </VirtualHost>
    ```
