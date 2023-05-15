@@ -1,0 +1,9 @@
+# Virtual Host configuration for grafana.cowaticook.com
+#
+server {
+	server_name grafana.cowaticook.com;
+	location / {
+		proxy_pass	http://localhost:3003;
+		proxy_set_header Host $http_host;
+	}
+}

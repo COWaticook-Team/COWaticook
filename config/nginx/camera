@@ -1,0 +1,8 @@
+# Virtual Host configuration for camera.cowaticook.com
+#
+server {
+	server_name camera.cowaticook.com;
+	location / {
+		proxy_pass	https://localhost:5001;
+	}
+}

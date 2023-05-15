@@ -1,0 +1,8 @@
+# Virtual Host configuration for portainer.cowaticook.com
+#
+server {
+	server_name portainer.cowaticook.com;
+	location / {
+		proxy_pass	https://localhost:9443;
+	}
+}

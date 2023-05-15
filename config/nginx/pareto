@@ -1,0 +1,8 @@
+# Virtual Host configuration for pareto.cowaticook.com
+#
+server {
+	server_name pareto.cowaticook.com;
+	location / {
+		proxy_pass	http://localhost:3001;
+	}
+}

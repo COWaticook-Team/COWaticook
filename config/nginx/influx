@@ -1,0 +1,8 @@
+# Virtual Host configuration for influx.cowaticook.com
+#
+server {
+	server_name influx.cowaticook.com;
+	location / {
+		proxy_pass	http://localhost:8086;
+	}
+}

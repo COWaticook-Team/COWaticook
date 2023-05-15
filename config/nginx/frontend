@@ -1,0 +1,8 @@
+# Default server configuration for the frontend
+#
+server {
+	server_name cowaticook.com;
+	location / {
+		proxy_pass	http://localhost:3002;
+	}
+}
